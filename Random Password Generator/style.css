@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 20px;
+    font-family: Bitwise;
+    color: black;
+}
+h1{
+    font-style: 180%;
+    margin-bottom: 30px;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #686868;
+}
+
+.container
+{  
+    width: 700px;
+    height: 250px;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.btn
+{
+    padding: 10px 30px;
+    font-size: 100%;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: border 0.5s,background-color 0.5s;
+}
+.btn:link,
+.btn:visited
+{
+    border: 1px solid #1FC742 ;
+    background-color:  #1FC742;
+}
+.btn:active,
+.btn:hover
+{
+    border: 1px solid #1aaa38;
+    background-color:  #1aaa38;
+    
+}
+.inputField
+{
+    margin-bottom: 30px;
+    outline: none;
+    font-family: Bitwise;
+    height: 40px;
+    width: 350px;
+    color: black;
+    font-size: 90%;
+}
+.inputField::placeholder
+{
+    color: black;
+}
